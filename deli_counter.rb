@@ -7,9 +7,7 @@ def line(katz_deli)
       arr << "{i+1}. #{x}."
     end
   end
-    
-    return arr
-  end
+  return arr
   #   filled = ""
   #   for x in 0...katz_deli.length
   #     if x == katz_deli.length-1
