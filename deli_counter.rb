@@ -2,7 +2,7 @@ def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
   else
-    katz_deli.each do |x|
+    katz_deli.collect do |x|
       puts "The line is currently: #{x}."
     end
   end
