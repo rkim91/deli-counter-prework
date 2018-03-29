@@ -3,12 +3,13 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
   if
-    filled = ""
-    for x in 0...katz_deli.length
-      if x == katz_deli.length-1
-        order += "#{x+1}. #{katz_deli[x].}"
-      end
-    end
-    puts "The line is currently: #{order}."
-  end
+    puts "The line is currently: #{katz_deli}."
+  #   filled = ""
+  #   for x in 0...katz_deli.length
+  #     if x == katz_deli.length-1
+  #       order += "#{x+1}. #{katz_deli[x].}"
+  #     end
+  #   end
+  #   puts "The line is currently: #{order}."
+  # end
 end
