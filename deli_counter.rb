@@ -5,4 +5,3 @@ def line(katz_deli, customer)
     puts "The line is currently: #{katz_deli}."
   end
 end
-end
