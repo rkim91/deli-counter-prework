@@ -4,4 +4,5 @@ def line(katz_deli)
   end
   else
     puts "The line is currently: #{katz_deli}"
+  end
 end
