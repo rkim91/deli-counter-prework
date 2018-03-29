@@ -5,8 +5,8 @@ def line(katz_deli)
     arr = []
     katz_deli.each_with_index do |x, i|
       arr << "#{i+1}. #{x}"
-    puts "The line is currently: #{arr.join(" ")}"
     end
+    puts "The line is currently: #{arr.join(" ")}"
   end
 end
   #   filled = ""
