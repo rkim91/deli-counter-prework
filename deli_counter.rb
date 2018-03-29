@@ -1,5 +1,5 @@
-def line(katz_deli)
-  if katz_deli == []
+def line(x)
+  if x == []
     puts "The line is currently empty."
   elsif
     puts "The line is currently: katz_deli"
