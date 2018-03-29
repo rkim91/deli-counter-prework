@@ -8,6 +8,7 @@ def line(katz_deli)
     end
   end
   return arr
+end
   #   filled = ""
   #   for x in 0...katz_deli.length
   #     if x == katz_deli.length-1
@@ -16,7 +17,7 @@ def line(katz_deli)
   #   end
   #   puts "The line is currently: #{order}."
   # end
-end
+
 
 def take_a_number(katz_deli, name)
   katz_deli.push(customer)
