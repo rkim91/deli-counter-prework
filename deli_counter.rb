@@ -7,3 +7,4 @@ def line(katz_deli)
     puts "The line is currently: #{i}. #{x}"
   end
 end
+end
