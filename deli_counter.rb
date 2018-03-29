@@ -6,7 +6,8 @@ def line(katz_deli)
     filled = ""
     for x in 0...katz_deli.length
       if x == katz_deli.length-1
-      puts "The line is currently: #{filled}."
+        order += "#{x+1}. #{katz_deli[x].}"
+      puts "The line is currently: #{order}."
     end
   end
 end
