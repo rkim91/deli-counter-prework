@@ -1,10 +1,8 @@
 def line(katz_deli, customer)
   if katz_deli == []
     puts "The line is currently empty."
-  end
-  if
-    
-    puts "The line is currently: #{x}."
+  elsif
+    puts "The line is currently: #{katz_deli}."
   end
 end
 end
