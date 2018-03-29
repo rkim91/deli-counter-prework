@@ -5,6 +5,6 @@ def line(katz_deli)
   if
     filled = ""
     for x in 0...katz_deli.length
-      puts "The line is currently: #{katz_deli}."
+      puts "The line is currently: #{filled}."
     end
   end
