@@ -7,7 +7,7 @@ def line(katz_deli)
     for x in 0...katz_deli.length
       if x == katz_deli.length-1
         order += "#{x+1}. #{katz_deli[x].}"
-      puts "The line is currently: #{order}."
-    end
+      end
+    puts "The line is currently: #{order}."
   end
 end
