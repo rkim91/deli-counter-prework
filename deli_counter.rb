@@ -6,7 +6,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |x, i|
       puts "The line is currently: #{i+1}. #{x}."
     end
-    arr
+    return arr
   end
   #   filled = ""
   #   for x in 0...katz_deli.length
