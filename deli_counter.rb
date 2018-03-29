@@ -1,5 +1,5 @@
 def line(katz_deli)
   if katz_deli == 0
-    puts "there is nobody in line"
+    puts "The line is currently emppty."
   end
 end
