@@ -15,3 +15,7 @@ def line(katz_deli)
   #   puts "The line is currently: #{order}."
   # end
 end
+
+def take_a_number(katz_deli, name)
+  katz_deli.push(customer)
+end
